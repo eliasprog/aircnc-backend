@@ -1,5 +1,14 @@
+/**
+ * Model to Spots.
+ */
+
+ //imports
 const mongoose = require('mongoose');
 
+/**
+ * Mongoose Schema to Spots
+ * Itś a data base structure to mongodb server.
+ */
 const SpotSchema = new mongoose.Schema({
     thumbnail: String,
     company: String,
